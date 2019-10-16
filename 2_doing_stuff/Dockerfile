@@ -13,6 +13,4 @@ COPY ./docker-entrypoint.sh /docker-entrypoint.sh
 
 RUN  chmod 755 /docker-entrypoint.sh
 
-COPY ./codebase /codebase
-
 ENTRYPOINT /docker-entrypoint.sh
